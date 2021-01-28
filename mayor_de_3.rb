@@ -3,9 +3,9 @@ b = ARGV[1].to_i
 c = ARGV[2].to_i
 
 if (a > b) && (a > c)
-    puts a
+    puts "el mayor es el a"
 elsif (b > a) && (b > c)
-    puts b
+    puts "el mayor es el b"
 else 
-    puts c
+    puts "el mayor es el c"
 end
