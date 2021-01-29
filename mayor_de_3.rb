@@ -1,11 +1,14 @@
-a = ARGV[0].to_i
-b = ARGV[1].to_i
-c = ARGV[2].to_i
+puts 'ingrese el primer valor '
+num_1 = gets.to_i
+puts 'ingrese el segundo valor'
+num_2 = gets.to_i
+puts 'ingrese el tercer valor'
+num_3 = gets.to_i
 
-if (a > b) && (a > c)
-    puts "el mayor es el a"
-elsif (b > a) && (b > c)
-    puts "el mayor es el b"
+if (num_1 >= num_2 and num_1 >= 3)
+puts "Entonces el número mayor es #{num_1}"
+elsif (num_2 >= num_1 and num_2 >=num_3)
+    puts"Entonces el número mayor es #{num_2}"
 else 
-    puts "el mayor es el c"
+    puts "Entonces el mayor es #{num_3}"
 end
